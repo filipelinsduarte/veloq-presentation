@@ -476,9 +476,34 @@ img.fav { width:22px; height:22px; border-radius:4px; border:1px solid var(--bor
 
   <div style="display:grid;grid-template-columns:1fr 340px;gap:20px;align-items:start;margin-top:4px;">
 
-    <!-- Chart -->
-    <div>
+    <!-- Chart + What we did -->
+    <div style="display:flex;flex-direction:column;gap:12px;">
       <img src="finance-client-gsc.jpg" alt="Finance client GSC — clicks trending up after engagement" style="width:100%;border-radius:12px;border:1px solid var(--border);box-shadow:0 6px 24px rgba(0,0,0,.08);display:block;">
+
+      <div style="display:flex;flex-direction:column;gap:7px;">
+        <div style="font-size:.56em;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:2px;">What we did</div>
+
+        <div style="display:flex;gap:9px;padding:9px 12px;border-radius:8px;background:var(--bg2);border:1px solid var(--border);align-items:flex-start;">
+          <i data-lucide="file-text" style="width:13px;height:13px;stroke:var(--g2);stroke-width:2;flex-shrink:0;margin-top:2px;"></i>
+          <div style="font-size:.63em;color:var(--text);line-height:1.55;"><strong style="color:var(--navy);">Content overhaul.</strong> Their existing pages had thin, uncrawlable content. We rewrote every page with detailed, keyword-optimised copy to start ranking for relevant industry terms.</div>
+        </div>
+
+        <div style="display:flex;gap:9px;padding:9px 12px;border-radius:8px;background:var(--bg2);border:1px solid var(--border);align-items:flex-start;">
+          <i data-lucide="tag" style="width:13px;height:13px;stroke:var(--g2);stroke-width:2;flex-shrink:0;margin-top:2px;"></i>
+          <div style="font-size:.63em;color:var(--text);line-height:1.55;"><strong style="color:var(--navy);">Meta titles & descriptions.</strong> All product pages had unoptimised metadata. After fixing them, pages began ranking for commercial-intent keywords.</div>
+        </div>
+
+        <div style="display:flex;gap:9px;padding:9px 12px;border-radius:8px;background:var(--bg2);border:1px solid var(--border);align-items:flex-start;">
+          <i data-lucide="layers" style="width:13px;height:13px;stroke:var(--g2);stroke-width:2;flex-shrink:0;margin-top:2px;"></i>
+          <div style="font-size:.63em;color:var(--text);line-height:1.55;"><strong style="color:var(--navy);">Bottom-of-funnel content.</strong> We created "best alternatives" and "best companies in X" articles targeting buyers in active evaluation mode.</div>
+        </div>
+
+        <div style="display:flex;gap:9px;padding:9px 12px;border-radius:8px;background:var(--bg2);border:1px solid var(--border);align-items:flex-start;">
+          <i data-lucide="git-branch" style="width:13px;height:13px;stroke:var(--g2);stroke-width:2;flex-shrink:0;margin-top:2px;"></i>
+          <div style="font-size:.63em;color:var(--text);line-height:1.55;"><strong style="color:var(--navy);">FAQs & interlinking.</strong> Added FAQs to every page and built out internal linking from scratch — a critical signal for crawlers that the site had zero of before.</div>
+        </div>
+
+      </div>
     </div>
 
     <!-- Stats + context -->
